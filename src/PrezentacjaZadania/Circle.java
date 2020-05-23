@@ -25,12 +25,17 @@ class Circle {
 
     }
 
-    public void testVarags(String powitanie, int... values){
+    public void testVarags(String powitanie, int... values) {
         System.out.println(powitanie);
 
 
         for (int inaczej : values) {
             System.out.println(inaczej);
         }
+    }
+
+    public static void main(String[] args) {
+
+
     }
 }
