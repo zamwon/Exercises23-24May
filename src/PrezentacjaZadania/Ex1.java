@@ -28,6 +28,7 @@ public class Ex1 {
         System.out.println("Obwód double: " + circumferenceDouble + "Pole double: " + areaDouble);
 
         System.out.println("Jestem z mastera");
+
         circle.testVarags("CZEŚĆ MISTRZU", 1);
         circle.testVarags("CZEŚĆ MASA", 1, 2, 3);
         circle.testVarags("Hola", new int[]{1, 2, 3});
