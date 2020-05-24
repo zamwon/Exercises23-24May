@@ -11,14 +11,14 @@ public class Ex7 {
                 " o wskazanym indeksie. Podaj indeks :");
         final int index = scanner.nextInt();
 
-        int[] fibonnaci;
+        int[] fibonnaci; // inicjalizacja bez przypisania
 
         if(index == 1){
-            fibonnaci = new int[]{1};
+            fibonnaci = new int[]{1}; // jeśli uzytkownik poda 1 to tablicy fibonnaci przypisujemy tablice jedno elementową ktora zawiera liczbę 1 na indeksie 0, int[0] = 1
         } else if (index == 2){
-            fibonnaci = new int[]{1, 1};
+            fibonnaci = new int[]{1, 1}; // int[0] = 1, int[1] = 1
         } else {
-            fibonnaci = new int[index];
+            fibonnaci = new int[index]; //
             fibonnaci[0] = 1;
             fibonnaci[1] = 1;
 
