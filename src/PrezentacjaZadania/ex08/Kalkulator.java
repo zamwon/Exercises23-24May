@@ -1,4 +1,4 @@
-package PrezentacjaZadania.ex8;
+package PrezentacjaZadania.ex08;
 
 public class Kalkulator {
     public int dodaj(int pierwszaLiczba, int drugaLiczba) {

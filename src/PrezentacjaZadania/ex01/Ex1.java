@@ -1,4 +1,4 @@
-package PrezentacjaZadania.ex1;
+package PrezentacjaZadania.ex01;
 
 import java.util.Scanner;
 
