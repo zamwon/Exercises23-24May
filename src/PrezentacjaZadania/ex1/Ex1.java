@@ -13,7 +13,7 @@ public class Ex1 {
         Circle circle = new Circle(diamiter);
         final float circumference = circle.getCircumference();
         final double circumferenceDouble = circle.getCircumferenceDouble();
-//        System.out.println(circumference);
+//        System.out.println(circumference);  drukuje
         float area = circle.getArea();
         double areaDouble = circle.getAreaDouble();
         System.out.printf("Obwód: %f, pole: %f", circumference, area);

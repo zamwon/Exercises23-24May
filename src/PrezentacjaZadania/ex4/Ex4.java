@@ -15,7 +15,7 @@ public class Ex4 {
         // Pobieram dane - jesli liczba mniejsza od 0 robię petle do while
         // dopoki podana liczba nie bedzie dodatnia
 
-        if( liczbaUsera < 0) {
+        if (liczbaUsera < 0) {
             do {
                 System.out.println("Podałeś liczbe ujemną, wprowadź liczbę dodatnią");
                 liczbaUsera = scanner.nextInt();

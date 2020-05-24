@@ -15,7 +15,7 @@ public class Ex2 {
         final double wzrostM = (double) wzrostCm / 100;
         final double bmi = (double) waga / Math.pow(wzrostM, 2);
 
-        if (bmi > 24.9 || bmi < 18.5){
+        if (bmi > 24.9 || bmi < 18.5) {
             System.out.println("BMI " + bmi + " nieoptymalne");
         } else {
             System.out.println("BMI " + bmi + " optymalne");

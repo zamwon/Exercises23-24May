@@ -1,0 +1,12 @@
+
+G
+java:S1481"*Remove this unused "wynik" local variable.(Í²¿‚8°úöÀ¤.
+R
+java:S1481"0Remove this unused "drugaLitera" local variable.(“¨Ñîıÿÿÿÿ8ÓÊñÀ¤.
+P
+java:S1481"3Remove this unused "pierwszaLitera" local variable.(ó”÷…8ÓÊñÀ¤.
+a
+java:S1854"?Remove this useless assignment to local variable "drugaLitera".(“¨Ñîıÿÿÿÿ8ÓÊñÀ¤.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“šß¬şÿÿÿÿ
+_
+java:S1854"BRemove this useless assignment to local variable "pierwszaLitera".(ó”÷…8ÓÊñÀ¤.

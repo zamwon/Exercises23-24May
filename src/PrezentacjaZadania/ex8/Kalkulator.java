@@ -4,12 +4,15 @@ public class Kalkulator {
     public int dodaj(int pierwszaLiczba, int drugaLiczba) {
         return pierwszaLiczba + drugaLiczba;
     }
+
     public int odejmij(int pierwszaLiczba, int drugaLiczba) {
         return pierwszaLiczba - drugaLiczba;
     }
+
     public int pomnoz(int pierwszaLiczba, int drugaLiczba) {
         return pierwszaLiczba * drugaLiczba;
     }
+
     public float podziel(int pierwszaLiczba, int drugaLiczba) {
         if (drugaLiczba == 0) {
             System.out.println("Nie dzielimy przez 0");
@@ -17,6 +20,7 @@ public class Kalkulator {
         }
         return ((float) pierwszaLiczba) / drugaLiczba;
     }
+
     public float wykonajDzialanie(int pierwszaLiczba, int drugaLiczba, String dzialanie) {
         switch (dzialanie) {
             case "+":

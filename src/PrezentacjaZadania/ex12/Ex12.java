@@ -15,7 +15,7 @@ public class Ex12 {
         char spacja = ' ';
         int iloscSpacji = 0;
         for (int i = 0; i < inputLength; i++) {
-            if (inputFromUser.charAt(i) == spacja){
+            if (inputFromUser.charAt(i) == spacja) {
                 iloscSpacji++; // liczba spacji - licznik
             }
 
@@ -23,7 +23,7 @@ public class Ex12 {
         System.out.println(iloscSpacji);
 
 
-        double wynik = ((double)iloscSpacji / inputLength ) * 100;
+        double wynik = ((double) iloscSpacji / inputLength) * 100;
 
         System.out.println(wynik);
 

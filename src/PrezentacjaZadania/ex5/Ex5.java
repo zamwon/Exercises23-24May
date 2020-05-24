@@ -9,7 +9,7 @@ public class Ex5 {
 
         System.out.println("Podaj dodatnią liczbę, większa od 1");
 
-       final int liczbaUsera = scanner.nextInt();
+        final int liczbaUsera = scanner.nextInt();
         boolean czyLiczbaPierwsza = true;
 
         for (int i = 1; i < liczbaUsera; i++) {

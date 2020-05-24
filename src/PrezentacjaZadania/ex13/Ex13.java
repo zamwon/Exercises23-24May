@@ -12,7 +12,7 @@ public class Ex13 {
         String[] zdanie = napis.split(" ");
 
         String noweZdanie = "";
-        for (int i = 0; i < zdanie.length; i++){
+        for (int i = 0; i < zdanie.length; i++) {
             noweZdanie += zdanie[i] + " " + zdanie[i] + " ";
         }
         System.out.println(noweZdanie);

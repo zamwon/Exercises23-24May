@@ -13,9 +13,9 @@ public class Ex9 {
         final int dlugosc = scanner.nextInt();
         final int wysokosc = 4;
         //Pętla na wysokość
-        for (int i = 0; i <= wysokosc; i++){
+        for (int i = 0; i <= wysokosc; i++) {
             // Pętla na długość
-            for(int j = wysokosc; j <= dlugosc + i; j++){
+            for (int j = wysokosc; j <= dlugosc + i; j++) {
 
                 System.out.print(" ");
             }

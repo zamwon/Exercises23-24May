@@ -14,7 +14,7 @@ public class Ex10 {
         } else if (liczba > 10 && liczba < 100) {
             System.out.println(liczba / 10 + liczba % 10);
         } else if (liczba >= 100 && liczba < 1000) {
-            System.out.println(liczba / 100 + (liczba / 10 % 10 )+ liczba % 10);
+            System.out.println(liczba / 100 + (liczba / 10 % 10) + liczba % 10);
         }
     }
 }

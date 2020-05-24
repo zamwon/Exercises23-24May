@@ -13,9 +13,9 @@ public class Ex7 {
 
         int[] fibonnaci; // inicjalizacja bez przypisania
 
-        if(index == 1){
+        if (index == 1) {
             fibonnaci = new int[]{1}; // jeśli uzytkownik poda 1 to tablicy fibonnaci przypisujemy tablice jedno elementową ktora zawiera liczbę 1 na indeksie 0, int[0] = 1
-        } else if (index == 2){
+        } else if (index == 2) {
             fibonnaci = new int[]{1, 1}; // int[0] = 1, int[1] = 1
         } else {
             fibonnaci = new int[index]; //
@@ -27,7 +27,7 @@ public class Ex7 {
             }
         }
         System.out.println("Liczba ciągu Fibonacciego o indeksie "
-                + index + " to: " + fibonnaci[index - 1] );
+                + index + " to: " + fibonnaci[index - 1]);
 
     }
 }
