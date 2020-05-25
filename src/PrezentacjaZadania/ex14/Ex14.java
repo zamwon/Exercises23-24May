@@ -22,5 +22,6 @@ public class Ex14 {
             System.out.println("Między wskazanymi literami jest " + Math.abs(kod2 - kod1) + " znaków.");
         }
 
+        System.out.println("Testuje usunięcie");
     }
 }
