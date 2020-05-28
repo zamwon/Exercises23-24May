@@ -19,3 +19,7 @@ W
 'src/PrezentacjaZadania/ex01/Circle.java,5\f\5f57c7d91363c813b6cfd55eebf3cf21d0d02d93
 T
 $src/PrezentacjaZadania/ex01/Ex1.java,a\8\a8190fbc62e892559a236b28712b19f85da6acaa
+T
+$src/PrezentacjaZadania/ex08/Ex8.java,4\4\44ed6d4c7ce95119979c9f4ba8eed194efed1fab
+T
+$src/PrezentacjaZadania/ex09/Ex9.java,b\e\be25327c5e1fe2838fc4eafefdbb05408bab2e7e
