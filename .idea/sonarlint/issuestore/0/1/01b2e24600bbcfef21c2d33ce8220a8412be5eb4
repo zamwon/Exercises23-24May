@@ -1,8 +1,8 @@
 
-U
-java:S1854
-"8Remove this useless assignment to local variable "name".(Ð×ŽÎ8›¹À­¤.
 F
 java:S1481
 ")Remove this unused "name" local variable.(Ð×ŽÎ8›¹À­¤.
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×ôÀ”üÿÿÿÿ
+U
+java:S1854
+"8Remove this useless assignment to local variable "name".(Ð×ŽÎ8›¹À­¤.

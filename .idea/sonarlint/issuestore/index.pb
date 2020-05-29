@@ -23,3 +23,7 @@ T
 $src/PrezentacjaZadania/ex08/Ex8.java,4\4\44ed6d4c7ce95119979c9f4ba8eed194efed1fab
 T
 $src/PrezentacjaZadania/ex09/Ex9.java,b\e\be25327c5e1fe2838fc4eafefdbb05408bab2e7e
+U
+%src/PrezentacjaZadania/ex16/Ex16.java,5\7\57eb90c7351c957a69c6e00e106686d8bdbb9960
+g
+7src/PrezentacjaZadania/ZadanieString/ZadanieSTRING.java,6\9\6922839a3e0f64a936cc282644af9b7558b2a01c

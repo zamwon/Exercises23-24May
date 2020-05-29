@@ -24,9 +24,9 @@ public class ZadanieSTRING {
         do {
             wprowadzonyZnak = scanner.nextLine();
             char literka = wprowadzonyZnak.charAt(0);
-            if(  literka >= 48 && literka <= 57) { // WTEDY MAMY CYFRE
+            if (literka >= 48 && literka <= 57) { // WTEDY MAMY CYFRE
                 ileCyfr++;
-            }else if ( literka >= 65 && literka <= 90 || literka >= 97 && literka <= 122 ){
+            } else if (literka >= 65 && literka <= 90 || literka >= 97 && literka <= 122) {
                 ileZnakow++;
             }
         }
@@ -34,5 +34,5 @@ public class ZadanieSTRING {
 
 
         System.out.println(ileCyfr + " " + ileZnakow);
-     }
+    }
 }
