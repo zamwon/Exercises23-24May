@@ -27,3 +27,5 @@ U
 %src/PrezentacjaZadania/ex16/Ex16.java,5\7\57eb90c7351c957a69c6e00e106686d8bdbb9960
 g
 7src/PrezentacjaZadania/ZadanieString/ZadanieSTRING.java,6\9\6922839a3e0f64a936cc282644af9b7558b2a01c
+U
+%src/PrezentacjaZadania/ex15/Ex15.java,f\f\ff0ef1479794be920f5d7b4c11dc8c9942d04262

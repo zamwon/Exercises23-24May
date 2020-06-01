@@ -1,7 +1,6 @@
 package PrezentacjaZadania.ex15;
 
-import java.util.HashMap;
-import java.util.HashSet;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ex15 {
@@ -11,31 +10,26 @@ public class Ex15 {
 
         System.out.println("Podaj 10 dowolnych liczb");
         int[] zbiorLiczb = new int[10];
-//        int counter = 1;
-        for (int i = 0; i < 10; i++) {
+
+        for (int i = 0; i < zbiorLiczb.length; i++) {
             int wprowadzonaLiczba = scanner.nextInt();
             zbiorLiczb[i] = wprowadzonaLiczba;
         }
 
-//        for (int i = 1; i < 5; i++) {
-//            if (zbiorLiczb[i] == zbiorLiczb[i - 1]) {
-//                counter++;
-//                if (counter >= 2) {
-//                    System.out.println("Liczba: " + zbiorLiczb[i] + " wystąpiła minimum 2 razy.");
-//                }
-//            }
-//        }
-//        if(counter == 1) {
-//            System.out.println("Brak podwójnych wystąpień");
-//        }
-//    }
-        HashSet<Integer> set = new HashSet<>();
-        for (Integer liczba : zbiorLiczb) {
-            if (set.add(liczba) == false) {
-                // your duplicate element
-                System.out.print(liczba);
+        Arrays.sort(zbiorLiczb);
+        int count = 1;
+        int countLast = 1;
+
+        for (int i = 1; i < zbiorLiczb.length; i++) {
+            if (zbiorLiczb[i] == zbiorLiczb[i - 1]) {
+                count++;
+            } else {
+                countLast = count;
+                count = 1;
+            }
+            if (countLast >= 2 && count == 1) {
+                System.out.println(zbiorLiczb[i - 1]);
             }
         }
-        // TODO if more then 2numbers are equal incorectly print again
     }
 }

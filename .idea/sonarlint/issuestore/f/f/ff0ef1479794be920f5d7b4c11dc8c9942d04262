@@ -1,0 +1,10 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(þ…§¯ûÿÿÿÿ
+K
+java:S1125"")Remove the literal "false" boolean value.(–çÔôüÿÿÿÿ8ŽŽ–²¦.
+X	java:S125"<This block of commented-out lines of code should be removed.(õÆ¬Í8±Ž²¦.
+O
+java:S1135'"2Complete the task associated to this TODO comment.(¡„žÀ8öŸ¨²¦.
+X	java:S125"<This block of commented-out lines of code should be removed.(ëìÁ¹8Ó‘‹²¦.
+P
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ßÐœ²¦.
