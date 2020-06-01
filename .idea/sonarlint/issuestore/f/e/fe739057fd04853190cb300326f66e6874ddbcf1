@@ -1,6 +1,0 @@
-
-O
-java:S1444"-Make this "public static scanner" field final(¾©´¬øÿÿÿÿ8ðûä¹¤.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ü¹™äùÿÿÿÿ
-u
-java:S1104"SMake scanner a static final constant or non-public and provide accessors if needed.(¾©´¬øÿÿÿÿ8ðûä¹¤.
